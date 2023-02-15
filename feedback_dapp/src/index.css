@@ -1,0 +1,148 @@
+:root {
+  height: fit-content;
+  width: 100%;
+  min-width: fit-content;
+  background-image: linear-gradient(
+    to top left,
+    rgba(197, 180, 122, 0.897),
+    rgb(165, 116, 42)
+  );
+  text-align: center;
+}
+
+.app {
+  min-width: fit-content;
+  padding: 1%;
+  justify-content: center;
+}
+
+.wallet {
+  display: flex;
+  justify-content: right;
+  padding-right: 2%;
+}
+
+.connect {
+  border-radius: 2rem;
+  border: 0.2vmax solid black;
+  background-color: limegreen;
+  font-size: 1.5rem;
+}
+
+.disconnect {
+  border-radius: 2rem;
+  border: 0.2vmax solid black;
+  font-size: 1.5vmax;
+  background-color: gray;
+}
+
+.wallet-address {
+  min-width: fit-content;
+  border: 1vmax dashed black;
+  padding-left: 1vmax;
+  padding-right: 1vmax;
+  font-size: 15px;
+  font-weight: bolder;
+  border-width: 0.3vmax;
+  color: brown;
+  -webkit-text-stroke: 0.1px;
+  -webkit-text-stroke-color: black;
+}
+
+.first {
+  padding: 3%;
+  min-width: fit-content;
+  justify-content: center;
+  margin-top: 8%;
+  margin-bottom: 1%;
+}
+.mgs {
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: x-large;
+}
+.lists,
+.first {
+  background-color: saddlebrown;
+  margin-top: 3%;
+  padding: 3%;
+  background-blend-mode: soft-light;
+}
+
+.page-header {
+  font-style: oblique;
+  font-size: 6vmin;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: antiquewhite;
+}
+
+.sub {
+  padding: 0.2%;
+  border-top: 0.2vmax groove black;
+  border-style: groove;
+  border-radius: 1rem;
+  line-height: 100%;
+  min-width: fit-content;
+  color: brown;
+  -webkit-text-stroke: 0.03px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: gray;
+  font-size: 10px;
+}
+
+.message {
+  font-weight: bolder;
+  font-style: italic;
+  border-bottom: 0.2vmax groove black;
+  border-style: groove;
+  border-radius: 1rem;
+  justify-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 1%;
+  background-color: gray;
+  font-size: 13px;
+}
+
+textarea {
+  background-color: gainsboro;
+  background-blend-mode: darken;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.submit {
+  background-color: green;
+  color: black;
+  border: 1px solid white;
+  font-size: 18px;
+}
+
+.input {
+  margin-bottom: 8%;
+}
+
+.line {
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed white;
+}
+
+.type {
+  font-weight: lighter;
+  font-style: italic;
+}
+.list {
+  justify-content: center;
+  text-align: center;
+}
+.text {
+  word-break: break-all;
+}
+
+.pages {
+  border-radius: 2rem;
+  background-color: darkgrey;
+}
